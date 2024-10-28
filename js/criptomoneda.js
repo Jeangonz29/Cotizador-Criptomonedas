@@ -13,7 +13,7 @@ const objBusqueda = {
     criptomoneda: ''
 }
 
-//eventos 
+//evento
 
 document.addEventListener('DOMContentLoaded', ()=>{
     consultarCripto();
