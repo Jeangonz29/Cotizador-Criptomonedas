@@ -1,5 +1,5 @@
 //identificar que selectores que vamos a utilizar
-//crear selctores
+//crear selectores
 
 const moneda = document.querySelector('#moneda');
 const selectCripto =  document.querySelector('#criptomonedas');
@@ -63,7 +63,7 @@ function selectCriptmonedas(criptomonedas){
 function cotizar(e){
     e.preventDefault(); //esto se colca porque es un boton que esta dentro del formulario
 
-    //consultar valore sobjetos guardadps en el objeto
+    //consultar valore objetos guardados en el objeto
     const {moneda, criptomoneda} = objBusqueda;
     if(moneda === '' || criptomoneda === ''){
         //validar que los campos no sean vacios
@@ -80,7 +80,7 @@ function mostrarError(mensaje){
         const alertaM = document.createElement('div')
         alertaM.classList.add('error')
 
-        //mostrar msh de error
+        //mostrar msj de error
         alertaM.innerHTML = `<strong>${mensaje}</strong>`
         //insertar en el HTML
         formulario.appendChild(alertaM)
@@ -93,7 +93,7 @@ function mostrarError(mensaje){
 
 function consultarAPI(){
     const {moneda,criptomoneda} = objBusqueda
-    //url la estoy selccionando de multiplies symbol full data
+    //url la estoy seleccionando de multiples symbol full data
 
     const url = `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=${criptomoneda}&tsyms=${moneda}`
    
