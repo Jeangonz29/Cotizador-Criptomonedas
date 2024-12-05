@@ -6,7 +6,7 @@
 <p> Ofrece acceso a datos de activos digitales en tiempo real. </p>
 <br>
 
-> Trabajamos con HTML5, CSS3 y JavaScript
+> Trabajamos con HTML5, CSS3, normalize.css, skeleton.css y JavaScript
 <br> 
 <br>
   <code><img width="8%" src="https://github.com/user-attachments/assets/4737b548-3ae7-415c-a34a-a113c678b83b"></code> <!--HTML-->
