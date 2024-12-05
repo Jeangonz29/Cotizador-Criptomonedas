@@ -7,7 +7,7 @@
 <br>
 
 > Trabajamos con HTML5, CSS3 y JavaScript
-<br>
+<br> 
 <br>
   <code><img width="8%" src="https://github.com/user-attachments/assets/4737b548-3ae7-415c-a34a-a113c678b83b"></code> <!--HTML-->
   <code><img width="8%" src="https://github.com/user-attachments/assets/a9c6b5d4-7021-47f3-a203-f22c76a36532"></code> <!--CSS-->
